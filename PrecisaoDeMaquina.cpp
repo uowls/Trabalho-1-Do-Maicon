@@ -1,4 +1,4 @@
-#include "../Trabalho/ResolverdorDeMatrizes3000.cpp"
+#include "ResolverdorDeMatrizes3000.cpp"
 using matriz = Matriz::matriz<double>;
 using shublau = double;
 //A1:
