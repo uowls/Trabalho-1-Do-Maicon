@@ -189,7 +189,7 @@ namespace Matriz{
                 constante.__sizeX = colunas;
                 constante.__sizeY = linhas;
                 delete[] constante.__data;
-                uconstantem.__data = new Type*[linhas];
+                constante.__data = new Type*[linhas];
                 for (unsigned long long int i = 0; i < linhas; ++i) {
                     constante.__data[i] = new Type[colunas];
                     for (unsigned long long int j = 0; j < colunas; ++j) {
